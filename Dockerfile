@@ -15,14 +15,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     nodejs \
     npm \
-    screen \
     ca-certificates \
-    libnuma-dev \
-    libjansson-dev \
-    ca-certificates \
-    libcurl4 \
-    libjansson4 \
-    libgomp1 \
  && mkdir -p /home/stuff
 
 # Set work dir:
